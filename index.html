@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--AOS-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +27,9 @@
         </header>
         <main>
             <div class="main__carrusel">
-                <img class="main__titulo" src="./img/lo_mejor.jpg" alt="#">
+                <img class="main__titulo" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" src="./img/lo_mejor.jpg" alt="#">
             </div>
             <br>
         <section class="section__descripcion">
@@ -70,5 +75,8 @@
                 </form>
             </div>
         </footer>
+        <script>
+            AOS.init();
+          </script>
     </body>
     </html>
