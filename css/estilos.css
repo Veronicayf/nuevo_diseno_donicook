@@ -167,7 +167,15 @@ background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 7
 
 /*MEDIA QUERIS*/
 @media screen and (max-width: 1024px){
-
+    .main__recetasalineacion {
+        display: flex;
+        gap: 0px;
+    }
+    .main__sectionparrafo {
+        width: 40%;
+        font-size: 2rem;
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -188,6 +196,30 @@ background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 7
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    .main__recetasalineacion {
+        display: flex;
+        gap: 0px;
+    }
+    .main__videocontenedor {
+        width: 50%;
+        margin: auto;
+        padding: 0rem;
+        padding: 1rem;
+    }
+    .main__recetasparrafo {
+        display: flex;
+        flex-direction: column;
+        /* font-size: 2rem; */
+        width: 50%;
+        justify-content: center;
+        font-size: 1.7rem;
+    }
+    .main__sectionparrafo {
+        width: 80%;
+        font-size: 2rem;
+    }
+
+
 
 }
 
@@ -272,3 +304,4 @@ background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 7
         flex-direction: column;
     }
 }
+/*FIN MEDIA QUERIS*/
