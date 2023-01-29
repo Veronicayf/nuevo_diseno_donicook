@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    background: rgb(250,216,206);
+    background: linear-gradient(180deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 75%);
+    justify-content: space-between;
+    align-items: center;
+    &__item{
+        font-size: 1.3rem;
+        display: inline;
+    }
+    &__anchor{
+        padding: 0.7rem;
+        display: inline-block;
+    }
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__logo{
+        height: 150px;
+        padding-left: 1rem;
+    }
+}

@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 /*INICIO HEADER*/
-.header__contenedor{
+.header{
     display: flex;
     background: rgb(250,216,206);
-background: linear-gradient(180deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 75%);
+    background: linear-gradient(180deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 75%);
     justify-content: space-between;
     align-items: center;
 }
@@ -31,11 +31,10 @@ background: linear-gradient(180deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1)
 /*FIN HEADER*/
 
 /*INICIO MAIN*/
-.main__carrusel {
+.main {
     display: flex;
-    /* gap: 20px; */
     justify-content: space-around;
-    /* justify-content: space-around; */
+
 }
     .main__tutilotexto {
         width: 60%;
@@ -50,7 +49,7 @@ background: linear-gradient(180deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1)
 .main__titulopre {
     width: 300px;
 }
-.section__descripcion {
+.section {
     display: flex;
     gap: 20px;
 }
@@ -128,7 +127,7 @@ background: linear-gradient(180deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1)
     display: flex;
     gap: 20px;
 }
-.main_adop-img {
+.main__adop-img {
     width: 80%;
 }
 .main__sectionpreguntas {
@@ -142,7 +141,7 @@ background: linear-gradient(180deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1)
 
 /*INICIO FOOTER*/
 
-.footer__contenedor {
+.footer {
     background: rgb(250,216,206);
 background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 75%);
     display: flex;
