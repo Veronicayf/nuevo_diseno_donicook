@@ -31,19 +31,40 @@ background: linear-gradient(180deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1)
 /*FIN HEADER*/
 
 /*INICIO MAIN*/
-.main__carrusel{
-    text-align: center;
+.main__carrusel {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+    /* justify-content: space-around; */
 }
-.main__titulo {
-    width: 100%;
+    .main__tutilotexto {
+        width: 60%;
+        font-size: 3rem;
+        text-align: center;
+        font-family: revert;
+        text-transform: uppercase;
+        text-shadow: -4px -4px 0 pink;
+        align-self: center;
+    }
+
+.main__titulopre {
+    width: 300px;
 }
 .section__descripcion {
     display: flex;
     gap: 20px;
 }
-.section__img{
+.section__img {
     width: 100%;
 }
+.section__parrafodecrip{
+    font-size: 3rem;
+    text-align: center;
+    font-family: revert;
+    text-transform: uppercase;
+    text-shadow: -4px -4px 0 pink; 
+}
+
 .main__sectiontitulo{
     width: 100%;
     font-size: 2rem;
@@ -176,6 +197,19 @@ background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 7
         font-size: 2rem;
         text-align: left;
     }
+    .main__tutilotexto {
+        width: 80%;
+        font-size: 2.4rem;
+        text-align: center;
+        font-family: revert;
+        text-shadow: blue;
+        text-transform: uppercase;
+        text-shadow: 5px 0 0 red;
+        text-shadow: -4px -4px 0 pink;
+    }
+    .main__titulo{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -218,7 +252,19 @@ background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 7
         width: 80%;
         font-size: 2rem;
     }
-
+    .main__tutilotexto {
+        width: 50%;
+        font-size: 1.8rem;
+        text-align: center;
+        font-family: revert;
+        text-shadow: blue;
+        text-transform: uppercase;
+        text-shadow: 5px 0 0 red;
+        text-shadow: -4px -4px 0 pink;
+    }
+    .main__titulo{
+        width: 100%;
+    }
 
 
 }
@@ -241,7 +287,7 @@ background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 7
     }
     .section__descripcion {
         display: flex;
-        gap: 20px;
+        gap: 50px;
         flex-direction: column;
     }
     .main__recetasalineacion {
@@ -263,6 +309,23 @@ background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 7
     .main__recetascontenedor {
         display: flex;
         flex-direction: column;
+    }
+    .main__carrusel {
+        display: flex;
+        flex-direction: column;
+    }
+    .main__tutilotexto {
+        width: 100%;
+        text-align: center;
+        font-family: revert;
+        text-shadow: blue;
+        text-transform: uppercase;
+        text-shadow: 5px 0 0 red;
+        text-shadow: -4px -4px 0 pink;
+        font-size: 1rem;
+    }
+    .main__titulo {
+        width: 100%;
     }
     .footer__contenedor {
         background: rgb(250,216,206);
