@@ -26,6 +26,13 @@
 
 @media screen and (max-width: 768px){
 
+    .header {
+        display: flex;
+        background: linear-gradient(180deg, #fad8ce 27%, white 75%);
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .main__sectioncontenedor {
         display: flex;
         flex-direction: column;
@@ -82,10 +89,9 @@
 }
 
 @media screen and (max-width: 425px){
-    .header__contenedor {
+    .header {
         display: flex;
-        background: rgb(250,216,206);
-        background: linear-gradient(180deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 75%);
+        background: linear-gradient(180deg, #fad8ce 27%, white 75%);
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
@@ -97,9 +103,9 @@
         justify-content: center;
         align-items: center;
     }
-    .section__descripcion {
+    .section {
         display: flex;
-        gap: 50px;
+        gap: 20px;
         flex-direction: column;
     }
     .main__recetasalineacion {
@@ -122,9 +128,11 @@
         display: flex;
         flex-direction: column;
     }
-    .main__carrusel {
+    .main {
         display: flex;
+        justify-content: space-around;
         flex-direction: column;
+        align-items: center;
     }
     .main__tutilotexto {
         width: 100%;
@@ -134,18 +142,18 @@
         text-transform: uppercase;
         text-shadow: 5px 0 0 red;
         text-shadow: -4px -4px 0 pink;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .main__titulo {
         width: 100%;
     }
-    .footer__contenedor {
-        background: rgb(250,216,206);
-        background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 75%);
+    .footer {
+        background: linear-gradient(0deg, #fad8ce 27%, white 75%);
         display: flex;
-        padding: 2rem;
-        gap: 50px;
+        /* padding: 2rem; */
+        gap: 20px;
         flex-direction: column;
+        margin-top: 2rem;
     }
     .color{
         background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 75%);
@@ -166,17 +174,22 @@
         font-size: 1.7rem;
         text-align: center;
     }
-.main__sectionpreguntas {
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0;
-}
     .main__sectionpreguntas {
         font-size: 1.5rem;
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+    .main__sectionpreguntas {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .main__sectiontitulo {
+        background-color: pink;
+        text-align: center;
+        font-size: 1.5rem;
     }
 }
 /*FIN MEDIA QUERIS*/

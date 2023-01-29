@@ -5,8 +5,7 @@
 
 .header {
   display: flex;
-  background: #fad8ce;
-  background: gradiente_header;
+  background: linear-gradient(180deg, #fad8ce 27%, white 75%);
   justify-content: space-between;
   align-items: center; }
   .header__item {
@@ -106,8 +105,7 @@
     text-shadow: -4px -4px 0 pink; }
 
 .footer {
-  background: #fad8ce;
-  background: gradiente_footer;
+  background: linear-gradient(0deg, #fad8ce 27%, white 75%);
   display: flex;
   padding: 2rem;
   gap: 50px; }
@@ -158,6 +156,11 @@
     width: 100%; } }
 
 @media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    background: linear-gradient(180deg, #fad8ce 27%, white 75%);
+    justify-content: space-between;
+    align-items: center; }
   .main__sectioncontenedor {
     display: flex;
     flex-direction: column;
@@ -202,9 +205,8 @@
     width: 100%; } }
 
 @media screen and (max-width: 425px) {
-  .header__contenedor {
+  .header {
     display: flex;
-    background: #fad8ce;
     background: linear-gradient(180deg, #fad8ce 27%, white 75%);
     justify-content: space-between;
     align-items: center;
@@ -215,9 +217,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .section__descripcion {
+  .section {
     display: flex;
-    gap: 50px;
+    gap: 20px;
     flex-direction: column; }
   .main__recetasalineacion {
     display: flex;
@@ -235,9 +237,11 @@
   .main__recetascontenedor {
     display: flex;
     flex-direction: column; }
-  .main__carrusel {
+  .main {
     display: flex;
-    flex-direction: column; }
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; }
   .main__tutilotexto {
     width: 100%;
     text-align: center;
@@ -246,16 +250,16 @@
     text-transform: uppercase;
     text-shadow: 5px 0 0 red;
     text-shadow: -4px -4px 0 pink;
-    font-size: 1rem; }
+    font-size: 1.5rem; }
   .main__titulo {
     width: 100%; }
-  .footer__contenedor {
-    background: #fad8ce;
+  .footer {
     background: linear-gradient(0deg, #fad8ce 27%, white 75%);
     display: flex;
-    padding: 2rem;
-    gap: 50px;
-    flex-direction: column; }
+    /* padding: 2rem; */
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 2rem; }
   .color {
     background: linear-gradient(0deg, #fad8ce 27%, white 75%); }
   .main__sectionalineacion {
@@ -280,6 +284,10 @@
   .main__sectionpreguntas {
     font-size: 1.5rem;
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .main__sectiontitulo {
+    background-color: pink;
+    text-align: center;
+    font-size: 1.5rem; } }
 
 /*FIN MEDIA QUERIS*/

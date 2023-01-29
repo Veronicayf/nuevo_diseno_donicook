@@ -1,8 +1,7 @@
 
 
 .footer{
-    background: rgb(250,216,206);
-    background: gradiente_footer;
+    background: linear-gradient(0deg, rgba(250,216,206,1) 27%, rgba(255,255,255,1) 75%);
     display: flex;
     padding: 2rem;
     gap: 50px;
