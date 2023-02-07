@@ -6,22 +6,44 @@
     }
     .main__sectionparrafo {
         width: 40%;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: left;
     }
     .main__tutilotexto {
-        width: 80%;
-        font-size: 2.4rem;
+        width: 100%;
+        font-size: 1.5rem;
         text-align: center;
         font-family: revert;
-        text-shadow: blue;
         text-transform: uppercase;
-        text-shadow: 5px 0 0 red;
         text-shadow: -4px -4px 0 pink;
     }
     .main__titulo{
         width: 100%;
     }
+    .main__sectionadopcontenedor {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .section {
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .section__parrafodecrip {
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: revert;
+        text-transform: uppercase;
+        text-shadow: -4px -4px 0 pink;
+    }   
+    .footer__redes {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }    
 }
 
 @media screen and (max-width: 768px){
@@ -31,6 +53,10 @@
         background: linear-gradient(180deg, #fad8ce 27%, white 75%);
         justify-content: space-between;
         align-items: center;
+    }
+    .header__item {
+        font-size: 1rem;
+        display: inline;
     }
 
     .main__sectioncontenedor {
@@ -62,14 +88,13 @@
     .main__recetasparrafo {
         display: flex;
         flex-direction: column;
-        /* font-size: 2rem; */
         width: 50%;
         justify-content: center;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .main__sectionparrafo {
         width: 80%;
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     .main__tutilotexto {
         width: 50%;
@@ -83,6 +108,20 @@
     }
     .main__titulo{
         width: 100%;
+    }
+    .main__sectionadopcontenedor {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .footer__h4 {
+        font-size: 1.5rem;
+    }
+    .footer__redes {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
     }
 
 

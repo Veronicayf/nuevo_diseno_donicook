@@ -2,15 +2,20 @@
 .main{
     display: flex;
     justify-content: space-around;
+
+    &__titulo{
+        width: 100%;
+    }
     
-    &__tutilotexto{
-        width: 60%;
-        font-size: 3rem;
+    &__tutilotexto {
+        width: 100%;
+        font-size: 2rem;
         text-align: center;
         font-family: revert;
         text-transform: uppercase;
         text-shadow: -4px -4px 0 pink;
         align-self: center;
+        margin: 2rem 3rem;
     }
     &__titulopre {
         width: 300px;
@@ -73,6 +78,7 @@
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
+        overflow: hidden;
     }
     &__sectionadop {
         display: flex;
